@@ -1,0 +1,7 @@
+CREATE USER url_user WITH LOGIN PASSWORD 'urlpostgres12345';
+CREATE DATABASE urldb;
+GRANT ALL PRIVILEGES ON DATABASE urldb TO url_user;
+Database Software - PostgresQL (Database)
+Shemas - urldb (Database/Schema)
+Tables - urls (Tables)
+Columns - short_url, long_url, visits (Columns)
